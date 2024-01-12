@@ -1,0 +1,34 @@
+
+Ques 1.
+# i. List the directory contents of the directory named "five" from the current directory (home directory).
+ls COSSDM/one/two/three/four/five
+555.txt  55.txt  5.txt
+
+# ii. Write your name in a file named "44.txt" of directory "four" from the current directory.
+echo "kajal" > one/two/three/four/44.txt
+
+# iii. Change directory to "five"
+cd one/two/three/four/five
+
+# iv. Write your course name in the file named "3.txt" in directory "three" and read the same file.
+echo "dac" > ../../3.txt
+cat ../../3.txt
+
+# v. Remove the file named "222.txt" in directory "two" from the current directory.
+rm ../../../222.txt
+
+# vi. Change directory to "one"
+cd ../../../../
+
+# vii. Remove all files only from the directory named "five" from the current directory.
+rm -f two/three/four/five/*
+
+# viii. Remove the directory named "five" from the current directory.
+rmdir two/three/four/five
+
+# ix. Remove the whole directory named "four" from the current directory.
+rm -r two/three/four
+
+Ques 2)
+1. 
+
